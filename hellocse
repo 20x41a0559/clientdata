@@ -1,0 +1,14 @@
+pipeline{
+agent any{
+stages{
+stage("validate")
+{
+steps(eco't am validating')
+}
+stage("compling")
+{
+steps(eco'i am compiling')
+}
+}
+}
+}
